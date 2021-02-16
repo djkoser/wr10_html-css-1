@@ -1,0 +1,38 @@
+/* Select by tag name */
+p{
+    color:blue
+}
+/* Id selector with # */
+#site-header{
+    font-size: 55px;
+    margin-left: 50px;
+}
+#site-header:hover {
+    font-size: 60px;
+    color:red;
+}
+/* Class selector with . */
+.site-nav-item {
+    font-style: italic;
+}
+img {
+    box-sizing:border-box;
+    width: 100px;
+    padding:10px;
+    border:20px dotted black;
+    /* margin-left;: 100px */
+    padding: 10px;
+    margin: auto;
+    display:block
+}
+.size-units-ex {
+    background-color: darkkhaki;
+    width:75vw;
+}
+.size-units-ex p {
+    background-color: darkorange;
+    width: 50%;
+}
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our Little Monster</title>
+        <!-- Linking in Reset.css before own styling would cause blank slate
+        <link rel="stylesheet" href="./Reset.css" -->
+        <link rel="stylesheet" href="./styles.css">
+        <!-- <style>
+            /* Select by tag name */
+            p{
+                color:blue
+            }
+            /* Id selector with # */
+            #site-header{
+                font-size: 55px;
+                margin-left: 50px;
+            }
+            /* Class selector with . */
+            .site-nav-item {
+                font-style: italic;
+            }
+        </style> -->
+    </head>
+    <body>
+        <!-- Comment test: this is a comment that won't be read by the browser, but I can still see it in the source code -->
+        <header>
+            <h1 id="site-header">
+                Our Little Monster
+            </h1>
+            <nav>
+                <ul>
+                    <li class="site-nav-item"><a href="#">Home</a></li>
+                    <li class="site-nav-item"><a href="#">About</a></li>
+                    <li class="site-nav-item"><a href="https://www.google.com/">Google</a></li>
+                    <li><a href="https://www.bing.com/" target="_blank">Bing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <header>
+                    <!-- Inline styling -->
+                    <h2 style="color: rgb(135, 192, 49); background-color: magenta;">Sample Article</h2>
+                </header>
+                <p>
+                    This is our article text, this can go on forever
+                </p>
+            </article>
+            <img src="https://image.shutterstock.com/z/stock-photo-british-shorthair-kitten-of-silver-color-on-blue-and-gray-backgrounds-1510641710.jpg
+            " width="100px">
+            <section>
+                <h3>Subscribe to our newsletter</h3>
+                <input type="text"><button> Subscribe</button>
+            </section>
+            <section class="size-units-ex">
+                <p>
+                    I am a size units example
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
